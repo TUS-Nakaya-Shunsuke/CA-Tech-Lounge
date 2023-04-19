@@ -29,7 +29,7 @@ CA Tech Loungeの提出型課題における進捗を以下に記録する.
         - KFold (Shuffle=True or False)
         - StratifiedKFold (Shuffle=True or False) : 採用
 - ベースラインモデルを決定 : Random Forest
-    - スコア : 0.85052
+    - スコア : 0.8516
     
 ## 2023/04/07
 - 問1
@@ -115,15 +115,15 @@ CA Tech Loungeの提出型課題における進捗を以下に記録する.
     - チューニングされたモデルのTestデータに対するスコア
         - 決定木系 : 0.7420
         - ロジスティック回帰 : 収束せず
-        - SVM : 
-        - KNN : 
-        - MLP : 
+        - SVM : 0.6966
+        - KNN : 0.6967
+        - MLP : 0.6887
         
-    - Train, Valid, Testの割合を変えて学習したのち, Testデータに対するスコア
-        - 決定木系 : 0.7420
+    - Train, Valid, Testの割合を変えて学習したのちの, Testデータに対するスコア
+        - 決定木系 : 0.9615
         - ロジスティック回帰 : 収束せず
-        - SVM : 
-        - KNN : 
-        - MLP : 
+        - SVM : 時間切れ
+        - KNN : 0.9457
+        - MLP : 時間切れ
         
 - プレゼンテーションの作成
